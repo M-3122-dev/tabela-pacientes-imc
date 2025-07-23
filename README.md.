@@ -1,0 +1,70 @@
+cat > README.md << 'EOF'
+# Tabela de Pacientes - Cálculo de IMC com Prioridade
+
+Este projeto em Python registra dados de pacientes, calcula o Índice de Massa Corporal (IMC) e classifica a gravidade da condição de saúde. Além disso, organiza os pacientes em uma tabela ordenada por prioridade médica, considerando a gravidade da classificação e a idade.
+
+## Funcionalidades
+
+- Cadastro de nome, idade, peso e altura do paciente
+- Cálculo do IMC usando a fórmula padrão
+- Classificação do IMC em categorias como "Sobrepeso", "Obesidade", etc.
+- Impressão de uma tabela ordenada por prioridade médica (mais grave e pacientes mais velhos primeiro)
+
+## Exemplo de uso
+
+Ao executar, você será solicitado a informar os dados do paciente:
+
+\`\`\`
+Nome: João Silva
+Idade: 45
+Peso (Kg): 85
+Altura (m): 1.75
+Quer continuar? [S/N]: N
+
+TABELA DE PACIENTES (prioridade por gravidade e idade)
+Nome               Idade  Peso      Altura    Classificação
+------------------------------------------------------------
+João Silva         45     85.0      1.75      Peso normal
+\`\`\`
+
+## Como usar
+
+1. Clone este repositório:
+
+\`\`\`bash
+git clone https://github.com/M-3122-dev/tabela-pacientes-imc.git
+\`\`\`
+
+2. Entre na pasta do projeto:
+
+\`\`\`bash
+cd tabela-pacientes-imc
+\`\`\`
+
+3. Execute o programa com Python 3:
+
+\`\`\`bash
+python exercicio_extra.py
+\`\`\`
+
+## Tecnologias utilizadas
+
+- Python 3
+
+## Como contribuir
+
+1. Faça um fork deste repositório  
+2. Crie uma branch para sua feature (\`git checkout -b minha-feature\`)  
+3. Faça commits das suas alterações (\`git commit -m 'Minha nova feature'\`)  
+4. Faça push para a branch (\`git push origin minha-feature\`)  
+5. Abra um Pull Request aqui
+
+## Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+## Autor
+
+José Mateus da Silva Santos Trindade  
+[LinkedIn](https://www.linkedin.com/in/jos%C3%A9-mateus-trindade-078498257/)
+EOF
